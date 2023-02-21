@@ -1024,7 +1024,7 @@ body .ui-tooltip {
 }
 
 .ui-visual-focus {
-	box-shadow: 0 0 3px 1px #5e9ed6;
+	box-shadow: 0 0 3px 1px #BF40BF;
 }
 
 .ui-button.ui-state-active:hover,.ui-button:active,.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active,a.ui-button:active {
@@ -5244,7 +5244,7 @@ body,html {
 }
 
 .desktop .apps .app-icon i:hover {
-	color: #ADD8E6;
+	color: #BF40BF;
 }
 
 .desktop .apps .app-icon span {
@@ -5607,7 +5607,7 @@ body,html {
 }
 
 .desktop .explorer-window .window-body.about-body a,.desktop .explorer-window .window-body.contact-body a {
-	color: #ADD8E6;
+	color: #BF40BF;
 	text-decoration: none;
 }
 
