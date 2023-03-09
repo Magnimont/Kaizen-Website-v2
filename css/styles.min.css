@@ -6230,7 +6230,7 @@ html {
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
-	flex-wrap: wrap;
+	overflow-y: scroll;
 }
 
 .team-member {
@@ -6267,6 +6267,7 @@ html {
 	font-size: 15px;
 	padding: 10px;
 	margin-top: 10px;
+	word-wrap: break-word;
 }
 
 .team-member:nth-child(1) .image {
