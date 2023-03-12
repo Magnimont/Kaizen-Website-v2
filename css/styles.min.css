@@ -6003,7 +6003,7 @@ html {
 }
 
 .faction-body .text-section::-webkit-scrollbar {
-    z-index: 100;
+    z-index: 200;
 }
 
 @keyframes slidetext {
