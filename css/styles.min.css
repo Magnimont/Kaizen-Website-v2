@@ -5934,6 +5934,7 @@ html {
 
 .faction-body {
     /* overflow-y: scroll; */
+    position: relative;
 }
 
 .faction-body .text-section,
@@ -5949,6 +5950,9 @@ html {
 }
 .faction-body .image-section {
     width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .faction-body .text-section {
@@ -5981,7 +5985,7 @@ html {
 }
 
 .faction-body .image-section .images-container img {
-    position: fixed;
+    position: relative;
     top: 0;
     right: 0;
     height: 100%;
@@ -5996,6 +6000,10 @@ html {
     animation-duration: 2.2s;
     animation-name: slideshadow;
     filter: saturate(100%) brightness(9999999999%);
+}
+
+.faction-body .text-section::-webkit-scrollbar {
+    z-index: 100;
 }
 
 @keyframes slidetext {
