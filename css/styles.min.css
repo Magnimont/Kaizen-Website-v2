@@ -9,6 +9,11 @@
 	display: none;
 }
 
+.txta {
+	inline-size: 250px;
+    overflow-wrap: break-word;
+}
+
 .ui-helper-hidden-accessible {
 	border: 0;
 	clip: rect(0 0 0 0);
