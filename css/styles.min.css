@@ -6357,19 +6357,19 @@ html {
 }
 
 .road-container .road-item:nth-child(1) {
-	background-image: url("https://cdn.discordapp.com/attachments/1066356627214712862/1084518938865569812/q1.png");
+	background-image: url("q1.png");
 }
 
 .road-container .road-item:nth-child(2) {
-	background-image: url("https://cdn.discordapp.com/attachments/1066356627214712862/1084518939184332801/q2.png");
+	background-image: url("q2.png");
 }
 
 .road-container .road-item:nth-child(3) {
-	background-image: url("https://cdn.discordapp.com/attachments/1066356627214712862/1084518939427606589/q3.png");
+	background-image: url("q3.png");
 }
 
 .road-container .road-item:nth-child(4) {
-	background-image: url("https://cdn.discordapp.com/attachments/1066356627214712862/1084518939654103080/q4.png");
+	background-image: url("q4.png");
 }
 
 .road-container .road-item:hover {
